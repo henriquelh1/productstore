@@ -10,7 +10,7 @@ class loginPage {
   };
 
   typeUsername(username) {
-    this.elements.usernameInput().clear().type(username);
+    this.elements.usernameInput().clear().type(username, { delay: 0 });
   }
 
   typePassword(password) {
@@ -23,6 +23,12 @@ class loginPage {
 
   clickCloseBtn() {
     this.elements.closeBtn().click();
+  }
+
+  login(username, password) {
+    this.typeUsername(username);
+    this.typePassword(password);
+    this.clickLoginSubmitBtn();
   }
 }
 export default loginPage;

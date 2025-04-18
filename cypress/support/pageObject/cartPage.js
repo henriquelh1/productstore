@@ -62,7 +62,7 @@ class cartPage {
   }
 
   clickPurchaseBtn() {
-    this.elements.placeOrderBtn().click();
+    this.elements.purchaseBtn().click();
   }
 }
 export default cartPage;

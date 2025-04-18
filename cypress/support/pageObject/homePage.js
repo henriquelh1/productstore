@@ -15,6 +15,9 @@ class homePage {
     nextpBtn: () => cy.get('Next'),
     previousBtn: () => cy.get('button').contains('Previous'),
     signUpBtn: () => cy.get('#signin2'),
+
+    //others
+    cardItem: () => cy.get('.card-title').eq(0),
   };
 
   clickAboutUsBtn() {
