@@ -15,6 +15,7 @@ export default defineConfig([
         // Cypress globals
         ...globals.mocha,
         cy: 'readonly',
+        expect: 'readonly',
       },
     },
     plugins: {
