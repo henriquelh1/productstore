@@ -43,19 +43,18 @@ There are two ways to run the tests:
 
 1.  **Interactive Mode** (Recommended for Development):
 
-        ```bash
-        npx cypress open
-        ```
+    ```bash
+      npx cypress open
+    ```
 
     This opens the Cypress Test Runner where you can see tests executing in real browsers.
     After running this command you should choose the browser and the test spec you would like run.
 
 2.  **Headless Mode** (Recommended for CI/CD)
-        ```bash
-    npx cypress run
+    ```bash
+       npx cypress run
     ```
     This runs all tests in the command line without opening a browser GUI.
-    ```
 
 ## Testing Approach
 
